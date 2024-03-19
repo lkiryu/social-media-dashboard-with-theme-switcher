@@ -1,5 +1,6 @@
 import React from "react";
 import Titles from "../titles/titles";
+import Button from "../button/button";
 
 import './header.css'
 
@@ -8,13 +9,7 @@ const Header = () => {
         <header className="header">
             <Titles/>
 
-            <div className="button">
-                <p className="mode dark">Dark Mode</p>
-                <label className="switch">
-                    <input type="checkbox" />
-                    <span className="slider round"></span>
-                </label>
-            </div>
+            <Button/>
         </header>
     )
 }
