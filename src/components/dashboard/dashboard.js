@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../header/header";
+import AllFollowers from "../allFollowers/allFollowers";
 
 import './dashboard.css'
 
@@ -7,7 +8,7 @@ const Dashboard = () => {
     return (
         <div className="dashboard dark">
             <Header/>
-            <section className="allFollowers"></section>
+            <AllFollowers/>
             <section className="overview"></section>
         </div>
     )
