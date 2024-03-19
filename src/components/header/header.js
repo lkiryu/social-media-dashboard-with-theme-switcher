@@ -1,16 +1,18 @@
 import React from "react";
-import Title from "../titles/titles";
+import Titles from "../titles/titles";
+
+import './header.css'
 
 const Header = () => {
     return (
         <header className="header">
-            <Title/>
+            <Titles/>
 
             <div className="button">
                 <p className="mode dark">Dark Mode</p>
-                <label class="switch">
+                <label className="switch">
                     <input type="checkbox" />
-                    <span class="slider round"></span>
+                    <span className="slider round"></span>
                 </label>
             </div>
         </header>

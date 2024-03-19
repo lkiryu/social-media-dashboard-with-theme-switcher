@@ -1,0 +1,20 @@
+.titles .title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.titles.dark .title{
+    color: hsl(0, 0%, 100%);
+}
+
+.titles.dark .followers{
+    color: hsl(228, 34%, 66%);
+}
+
+.titles.light .title{
+    color: hsl(230, 17%, 14%);
+}
+
+.titles.light .followers{
+    color: hsl(228, 12%, 44%);
+}
