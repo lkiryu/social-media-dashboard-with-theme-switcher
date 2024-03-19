@@ -1,6 +1,8 @@
 import React from "react";
 import Followers from "../followers/followers";
 
+import './allFollowers.css'
+
 const AllFollowers = () => {
     return(
         <div className="allFollowers dark">

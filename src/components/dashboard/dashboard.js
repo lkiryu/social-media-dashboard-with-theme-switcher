@@ -8,6 +8,7 @@ const Dashboard = () => {
     return (
         <div className="dashboard dark">
             <Header/>
+            
             <AllFollowers/>
             <section className="overview"></section>
         </div>
