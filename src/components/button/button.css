@@ -5,9 +5,16 @@
 }
 
 .button .mode {
-    color: hsl(228, 34%, 66%);
     font-weight: 700;
     margin-right: 20px;
+}
+
+.header.dark .button .mode{
+    color: hsl(228, 34%, 66%);
+}
+
+.header.light .button .mode{
+    color: hsl(228, 12%, 44%);
 }
 
 .switch {
@@ -42,9 +49,16 @@
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: hsla(232, 19%, 15% ,100);
     -webkit-transition: .4s;
     transition: .4s;
+}
+
+.header.dark .slider:before {
+    background-color: hsl(232, 19%, 15%);
+}
+
+.header.light .slider:before {
+    background-color: hsl(225, 100%, 98%);
 }
 
 input:checked+.slider {

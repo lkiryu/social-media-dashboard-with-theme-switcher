@@ -3,18 +3,18 @@
     margin-bottom: 10px;
 }
 
-.titles.dark .title{
+.header.dark .titles .title{
     color: hsl(0, 0%, 100%);
 }
 
-.titles.dark .followers{
+.header.dark .titles .followers{
     color: hsl(228, 34%, 66%);
 }
 
-.titles.light .title{
+.header.light .titles .title{
     color: hsl(230, 17%, 14%);
 }
 
-.titles.light .followers{
+.header.light .titles .followers{
     color: hsl(228, 12%, 44%);
 }

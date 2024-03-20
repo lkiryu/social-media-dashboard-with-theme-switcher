@@ -4,7 +4,7 @@ import './button.css'
 
 const Button = () => {
     return (
-        <div className="button dark">
+        <div className="button">
             <p className="mode">Dark Mode</p>
             <label className="switch">
                 <input type="checkbox" />

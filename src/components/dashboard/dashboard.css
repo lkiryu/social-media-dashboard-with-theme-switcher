@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-.dashboard{
+.dashboard {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,6 +16,6 @@
 }
 
 .dashboard.light {
-    background: rgb(245, 247, 255);
-    background: linear-gradient(0deg, rgba(245, 247, 255, 1) 70%, rgba(255, 255, 255, 1) 70%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 70%, rgba(245, 247, 255, 1) 70%);
 }

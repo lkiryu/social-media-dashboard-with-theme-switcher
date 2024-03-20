@@ -1,6 +1,13 @@
 .overview h2{
-    color: hsl(0, 0%, 100%);
     margin-bottom: 20px;
+}
+
+.overview.dark h2{
+    color: hsl(228, 34%, 66%);
+}
+
+.overview.light h2{
+    color: hsl(228, 12%, 44%);
 }
 
 .cards{

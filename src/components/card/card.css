@@ -5,9 +5,16 @@
     justify-content: space-between;
     width: 300px;
     height: 150px;
-    background-color: hsl(228, 28%, 20%);
     border-radius: 10px;
     padding: 30px 40px;
+}
+
+.overview.dark .card{
+    background-color: hsl(228, 28%, 20%);
+}
+
+.overview.light .card{
+    background-color: hsl(227, 47%, 96%);
 }
 
 .card .info, .card .numbers{
@@ -18,9 +25,16 @@
 }
 
 .info .cardTitle{
-    color: hsl(228, 34%, 66%);
     font-weight: 700;
     font-size: 14px;
+}
+
+.overview.dark .cardTitle{
+    color: hsl(228, 34%, 66%);
+}
+
+.overview.light .cardTitle{
+    color: hsl(228, 12%, 44%);
 }
 
 .info i{
@@ -30,7 +44,14 @@
 .numbers .value{
     font-size: 40px;
     font-weight: 700;
+}
+
+.overview.dark .value{
     color: hsl(0, 0%, 100%);
+}
+
+.overview.light .value{
+    color: hsl(230, 17%, 14%);
 }
 
 .numbers .percentage{
