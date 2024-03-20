@@ -57,3 +57,20 @@
 .numbers .percentage{
     align-self: flex-end;
 }
+
+@media(max-width:1024px){
+    .card{
+        width: 210px;
+        padding: 30px;
+    }
+
+    .numbers .value{
+        font-size: 24px;
+    }
+}
+
+@media(max-width:500px){
+    .card{
+        width: 300px;
+    }
+}

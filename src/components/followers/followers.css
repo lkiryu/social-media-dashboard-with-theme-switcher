@@ -3,16 +3,16 @@
     border-radius: 5px;
 }
 
+.Followers:last-child {
+    margin-right: 0;
+}
+
 .allFollowers.dark .Followers {
     background-color: hsl(228, 28%, 20%);
 }
 
 .allFollowers.light .Followers {
     background-color: hsl(227, 47%, 96%);
-}
-
-.Followers:last-child {
-    margin-right: 0;
 }
 
 .Followers.facebook {
@@ -114,4 +114,27 @@
 
 .down {
     color: hsl(356, 69%, 56%);
+}
+
+@media(max-width:1024px){
+    .Followers ul {
+        width: 210px;
+        padding: 20px;
+    }
+
+    .text {
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width:800px){
+    .Followers {
+        margin-right: 0;
+    }
+}
+
+@media(max-width:500px){
+    .Followers ul {
+        width: 300px;
+    }
 }

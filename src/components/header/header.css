@@ -5,3 +5,23 @@
     width: 68vw;
     height: 15vh;
 }
+
+@media(max-width:1440px){
+    .header{
+        width: 90vw;
+    }
+}
+
+@media(max-width:800px){
+    .header{
+        width: 450px;
+    }
+}
+
+@media(max-width:500px){
+    .header{
+        flex-direction: column;
+        margin: 40px 0;
+        width: 300px;
+    }
+}

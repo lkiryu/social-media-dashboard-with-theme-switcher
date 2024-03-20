@@ -16,3 +16,23 @@
     grid-template-rows: repeat(2, auto);
     gap: 30px;
 }
+
+@media(max-width:800px){
+    .overview{
+        margin-bottom: 40px;    
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(4, auto);
+        gap: 30px;
+    }
+}
+
+@media(max-width:500px){
+    .cards{
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(8, auto);
+    }
+}

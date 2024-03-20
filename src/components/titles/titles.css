@@ -18,3 +18,9 @@
 .header.light .titles .followers{
     color: hsl(228, 12%, 44%);
 }
+
+@media(max-width:800px){
+    .titles .title{
+        font-size: 22px;
+    }
+}
