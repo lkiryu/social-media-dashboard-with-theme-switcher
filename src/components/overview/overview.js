@@ -5,7 +5,7 @@ import './overview.css'
 
 const Overview = () =>{
     return (
-        <section className="overview light">
+        <section className="overview dark theme">
             <h2 className="title">Overview - Today</h2>
 
             <div className="cards">

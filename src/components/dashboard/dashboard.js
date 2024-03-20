@@ -7,7 +7,7 @@ import './dashboard.css'
 
 const Dashboard = () => {
     return (
-        <div className="dashboard light">
+        <div className="dashboard dark theme">
             <Header/>
 
             <AllFollowers/>

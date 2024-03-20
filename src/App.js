@@ -1,4 +1,5 @@
 import Dashboard from './components/dashboard/dashboard';
+import './js/changeTheme'
 
 import './App.css'
 

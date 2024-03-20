@@ -5,7 +5,7 @@ import './allFollowers.css'
 
 const AllFollowers = () => {
     return(
-        <div className="allFollowers light">
+        <div className="allFollowers dark theme">
             <Followers social='facebook' user='@nathanf' total='1987' text='Followers' caret='up' today='12'/>
             <Followers social='twitter' user='@nathanf' total='1044' text='Followers' caret='up' today='99'/>
             <Followers social='instagram' user='@realnathanf' total='11k' text='Followers' caret='up' today='1099'/>

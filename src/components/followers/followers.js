@@ -4,7 +4,7 @@ import './followers.css'
 
 const Followers = (props) =>{
     return(
-        <div className={"Followers dark "+props.social}>
+        <div className={"Followers "+props.social}>
             <ul>
                 <li className="user"><i className={'fa-brands fa-'+props.social}></i> {props.user}</li>
                 <li className="total">{props.total}</li>
