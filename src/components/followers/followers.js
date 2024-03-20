@@ -9,7 +9,7 @@ const Followers = (props) =>{
                 <li className="user"><i className={'fa-brands fa-'+props.social}></i> {props.user}</li>
                 <li className="total">{props.total}</li>
                 <li className="text">{props.text}</li>
-                <li className={"today "+props.caret}><i className={"fa-solid fa-caret-"+props.caret}></i>{props.today} Today</li>
+                <li className={"today "+props.caret}><i className={"fa-solid fa-caret-"+props.caret}></i> {props.today} Today</li>
             </ul>
         </div>
     )

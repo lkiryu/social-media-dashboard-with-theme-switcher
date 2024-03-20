@@ -1,6 +1,8 @@
 import React from "react";
 import Card from "../card/card";
 
+import './overview.css'
+
 const Overview = () =>{
     return (
         <section className="overview">

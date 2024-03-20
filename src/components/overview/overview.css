@@ -1,0 +1,11 @@
+.overview h2{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 30px;
+}
