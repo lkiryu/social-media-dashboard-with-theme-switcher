@@ -1,6 +1,7 @@
 .allFollowers{
     display: flex;
     margin-bottom: 40px;
+    gap: 30px;
 }
 
 @media(max-width:1024px){

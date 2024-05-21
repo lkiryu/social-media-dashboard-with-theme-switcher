@@ -1,5 +1,11 @@
 .Followers {
-    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 300px;
+    padding: 30px 40px;
     border-radius: 5px;
 }
 
@@ -31,16 +37,6 @@
     border-top: 5px solid hsl(348, 97%, 39%);
 }
 
-.Followers ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    width: 300px;
-    padding: 30px 40px;
-}
-
 .Followers .user {
     display: flex;
     align-items: center;
@@ -48,11 +44,11 @@
     margin-bottom: 10px;
 }
 
-.allFollowers.dark .Followers .user{
+.allFollowers.dark .Followers .user {
     color: hsl(228, 34%, 66%);
 }
 
-.allFollowers.light .Followers .user{
+.allFollowers.light .Followers .user {
     color: hsl(228, 12%, 44%);
 }
 
@@ -82,11 +78,11 @@
     font-weight: 700;
 }
 
-.allFollowers.dark .Followers .total{
+.allFollowers.dark .Followers .total {
     color: hsl(0, 0%, 100%);
 }
 
-.allFollowers.light .Followers .total{
+.allFollowers.light .Followers .total {
     color: hsl(230, 17%, 14%);
 }
 
@@ -96,11 +92,11 @@
     margin-bottom: 30px;
 }
 
-.allFollowers.dark .Followers .text{
+.allFollowers.dark .Followers .text {
     color: hsl(228, 34%, 66%);
 }
 
-.allFollowers.light .Followers .text{
+.allFollowers.light .Followers .text {
     color: hsl(228, 12%, 44%);
 }
 
@@ -116,8 +112,8 @@
     color: hsl(356, 69%, 56%);
 }
 
-@media(max-width:1024px){
-    .Followers ul {
+@media(max-width:1024px) {
+    .Followers {
         width: 210px;
         padding: 20px;
     }
@@ -127,14 +123,14 @@
     }
 }
 
-@media(max-width:800px){
+@media(max-width:800px) {
     .Followers {
         margin-right: 0;
     }
 }
 
-@media(max-width:500px){
-    .Followers ul {
+@media(max-width:500px) {
+    .Followers {
         width: 300px;
     }
 }
