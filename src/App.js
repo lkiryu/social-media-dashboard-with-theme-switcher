@@ -1,13 +1,21 @@
-import Dashboard from './components/dashboard/dashboard';
+import React from 'react';
+import Header from './components/header/header'
+import AllFollowers from './components/allFollowers/allFollowers'
+import Overview from './components/overview/overview';
+
 import './js/changeTheme'
 
 import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <Dashboard />
-    </div>
+    <main className="container dark theme">
+      <Header />
+
+      <AllFollowers />
+
+      <Overview />
+    </main>
   );
 }
 
