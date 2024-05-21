@@ -1,4 +1,4 @@
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,20 +6,45 @@
     height: 15vh;
 }
 
-@media(max-width:1440px){
-    .header{
+.titles .title {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.header.dark .titles .title {
+    color: hsl(0, 0%, 100%);
+}
+
+.header.dark .titles .followers {
+    color: hsl(228, 34%, 66%);
+}
+
+.header.light .titles .title {
+    color: hsl(230, 17%, 14%);
+}
+
+.header.light .titles .followers {
+    color: hsl(228, 12%, 44%);
+}
+
+@media(max-width:1440px) {
+    .header {
         width: 90vw;
     }
 }
 
-@media(max-width:800px){
-    .header{
+@media(max-width:800px) {
+    .header {
         width: 450px;
+    }
+
+    .titles .title {
+        font-size: 22px;
     }
 }
 
-@media(max-width:500px){
-    .header{
+@media(max-width:500px) {
+    .header {
         flex-direction: column;
         margin: 40px 0;
         width: 300px;
